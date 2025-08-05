@@ -8,7 +8,7 @@ mkdir /home/#users/#folders
 #access to all users
 chmod 777 /home/#users/#folders
 
-#file access (configuration in config/smb.conf) /etc/samba/smb.conf
+#file access (configuration in config/smb.conf)
 sudo nano /etc/samba/smb.conf
 
 #restart
