@@ -24,6 +24,8 @@ Before you begin, ensure the following:
     * Password: The password set via smbpasswd
     * If you're connecting to a guest share (guest ok = yes), you can skip credentials.
 
-6. Test Connection.
-Tap "Next" or "Connect" to test the connection.
+6. Test Connection, Tap "Next" or "Connect" to test the connection.
+   
+---
+
 If everything’s configured correctly, you’ll see the contents of your shared folder.
