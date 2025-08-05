@@ -9,20 +9,14 @@ Before you begin, ensure the following:
 ---
 
 ## Step-by-Step Instructions:
-1. Open Solid Explorer. Launch the app and go to the main storage view.
+1. Install and Open Solid Explorer, Launch the app and go to the main storage view.
 
-2. Tap the "⋮" Menu > Add Storage.
-Choose New cloud connection or Add network location.
+2. Tap the "⋮" Menu > Add Storage, Choose New cloud connection or Add network location.
 
-3. Select SMB/CIFS.
-This is the protocol used by Samba servers. Select it to proceed.
+3. Select SMB/CIFS, This is the protocol used by Samba servers. Select it to proceed.
 
 4. Enter Server Details.
-Hostname / IP Address:
-Input the IP address of your Samba server (e.g. 192.168.1.50).
-
-Port (Optional):
-Leave it blank unless your server uses a non-standard port.
+    *Hostname / IP Address: Input the IP address of your Samba server (e.g. 192.168.1.50) #use ip a command to see ip address.
 
 Share Name:
 Enter the name of the shared folder (e.g. Public or Private depending on your setup in smb.conf).
