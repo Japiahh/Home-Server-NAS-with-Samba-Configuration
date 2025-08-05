@@ -8,5 +8,14 @@ mkdir /home/#users/#folders
 #access to all users
 chmod 777 /home/#users/#folders
 
-#file access /etc/samba/smb.conf
+#file access (configuration in config/smb.conf) /etc/samba/smb.conf
 sudo nano /etc/samba/smb.conf
+
+#restart
+sudo systemctl restart smbd
+
+#to add Linux users and Samba password
+sudo adduser #users
+
+sudo smbpasswd -a #users
+
