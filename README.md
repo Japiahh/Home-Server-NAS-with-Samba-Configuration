@@ -1,4 +1,4 @@
-# 🏠 Home Server / NAS with Samba Configuration
+# 🏠 Home Server / NAS 
 
 I built my own low-cost, 24/7 home server and NAS solution using Samba.  
 This setup allows seamless local file sharing across devices **without requiring internet access**.
