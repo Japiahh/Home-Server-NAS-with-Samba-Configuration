@@ -29,3 +29,4 @@ Before you begin, ensure the following:
 ---
 
 If everything’s configured correctly, you’ll see the contents of your shared folder.
+Thanks Risa
