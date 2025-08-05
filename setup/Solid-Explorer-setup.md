@@ -16,10 +16,9 @@ Before you begin, ensure the following:
 3. Select SMB/CIFS, This is the protocol used by Samba servers. Select it to proceed.
 
 4. Enter Server Details.
-   * Hostname / IP Address: Input the IP address of your Samba server (e.g. 192.168.1.50) #use ip a command to see ip address.
-
-Share Name:
-Enter the name of the shared folder (e.g. Public or Private depending on your setup in smb.conf).
+  * Hostname / IP Address: Input the IP address of your Samba server (e.g. 192.168.1.50) #use ip a command to see ip address.
+    
+  * Share Name: Enter the name of the shared folder (e.g. Public or Private depending on your setup in smb.conf).
 
 5. Authentication (if required):
 Username: Your Samba user (e.g. nasuser)
