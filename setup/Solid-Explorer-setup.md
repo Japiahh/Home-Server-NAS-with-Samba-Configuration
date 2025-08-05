@@ -20,11 +20,9 @@ Before you begin, ensure the following:
    * Share Name: Enter the name of the shared folder (e.g. Public or Private depending on your setup in smb.conf).
 
 5. Authentication (if required):
-Username: Your Samba user (e.g. nasuser)
-
-Password: The password set via smbpasswd
-
-If you're connecting to a guest share (guest ok = yes), you can skip credentials.
+    * Username: Your Samba user (e.g. nasuser)
+    * Password: The password set via smbpasswd
+    * If you're connecting to a guest share (guest ok = yes), you can skip credentials.
 
 6. Test Connection.
 Tap "Next" or "Connect" to test the connection.
