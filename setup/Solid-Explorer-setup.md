@@ -1,3 +1,5 @@
+# setup Solid Explorer
+
 ## Prerequisites:  
 
 Before you begin, ensure the following:
