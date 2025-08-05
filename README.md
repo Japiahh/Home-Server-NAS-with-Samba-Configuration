@@ -25,6 +25,7 @@ Home-Server-NAS-with-Samba-Configuration/
 |  |-- samba-setup.sh
 |-- LICENSE
 |-- README.md
+```
 
 ---
 
