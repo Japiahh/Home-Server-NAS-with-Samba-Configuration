@@ -19,3 +19,21 @@ sudo adduser #users
 
 sudo smbpasswd -a #users
 
+#users access
+sudo chown #users:#users /home/#users/#folders
+sudo chmod 770 /home/#users/#folders
+sudo systemctl restart smbd
+
+#status, log,and test
+systemctl status smbd.service
+journalctl -xe | grep smbd
+testparm
+
+#firewall
+sudo ufw allow samba
+sudo ufw reload
+
+#users checking
+sudo pdbedit -L -v
+sudo pdbedit -v #users
+sudo nano /etc/samba/smb.conf
